@@ -12,7 +12,7 @@ namespace Task_13
         static void Main(string[] args)
         {
             List<Client> clientList = new List<Client>();
-            StreamReader sr = new StreamReader(@"C:\Users\KDroz\OneDrive\Рабочий стол\Практика\Неделя 4\Задание 13\1.txt", Encoding.Default);
+            StreamReader sr = new StreamReader(@"C:\Users\KDroz\OneDrive\Рабочий стол\Практика\Неделя 4\Задание 13\Task 13\1.txt", Encoding.Default);
             while (!sr.EndOfStream)
             {
                 string[] s = sr.ReadLine().Split(new char[] { ' ', '\t' }, StringSplitOptions.RemoveEmptyEntries);
